@@ -1,13 +1,17 @@
 import React from "react";
 import "./Overview.scss";
-import Menu from "../../component/menu/Menu";
+import SavedLocations from "../savedLocations/SavedLocations";
+import PopularLocations from "../popularLocations/PopularLocations";
 
 const Overview = () => {
   return (
     <>
       <div className="overview-container">
-        <div className="one-day-forecast"> 24 hour forecast</div>
-        <div className="seven-day-forecast"> 7 day forecast</div>
+        <div className="saved-locations">
+          <SavedLocations />
+          <PopularLocations />
+        </div>
+        <div className="current-location"> 7 day forecast</div>
       </div>
     </>
   );
