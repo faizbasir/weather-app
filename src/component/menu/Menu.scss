@@ -1,0 +1,30 @@
+.menu-container {
+  background-color: rgb(37, 28, 51);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.logo {
+  width: 1.5rem;
+  margin-bottom: 3rem;
+}
+.menu-list {
+  font-size: small;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 3rem;
+}
+.menu-icons {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+p {
+  margin-top: 0;
+  font-size: x-small;
+  text-align: center;
+}
+.list-item {
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 1440px) {
+}

@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { useAppDispatch, useAppSelector } from "../../../component/store/hooks";
 import { Route, BrowserRouter, Routes, Navigate } from "react-router-dom";
 import Overview from "../../overview/Overview";
+import Header from "../../../component/header/Header";
+import "./App.scss";
 
 const App = () => {
   const currenLocation = useAppSelector((state) => state.currentLocation.value);
@@ -20,6 +22,7 @@ const App = () => {
 
   return (
     <>
+      <Header />
       <BrowserRouter>{content}</BrowserRouter>
     </>
   );
