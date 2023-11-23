@@ -1,0 +1,31 @@
+.summary-container {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid grey;
+  margin-bottom: 1.5rem;
+}
+.description {
+  color: grey;
+  margin: auto;
+  width: fit-content;
+  margin-bottom: 1.5rem;
+}
+.summary-image {
+  width: 8rem;
+  height: 100%;
+  margin-right: 2rem;
+}
+.forecast-img {
+  width: 5rem;
+  height: 5rem;
+}
+.forecast-section {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid grey;
+}
+.today-forecast {
+  margin-bottom: 2rem;
+}

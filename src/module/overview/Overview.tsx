@@ -2,6 +2,7 @@ import React from "react";
 import "./Overview.scss";
 import SavedLocations from "../savedLocations/SavedLocations";
 import PopularLocations from "../popularLocations/PopularLocations";
+import CurrentConditions from "../currentConditions/container/CurrentConditions";
 
 const Overview = () => {
   return (
@@ -11,7 +12,9 @@ const Overview = () => {
           <SavedLocations />
           <PopularLocations />
         </div>
-        <div className="current-location"> 7 day forecast</div>
+        <div className="current-location">
+          <CurrentConditions />
+        </div>
       </div>
     </>
   );

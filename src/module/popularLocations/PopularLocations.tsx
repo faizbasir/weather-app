@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+import { Button, Card } from "react-bootstrap";
 import "./PopularLocations.scss";
 
 const sunset = require("../../../public/assets/images/sunset.png");
@@ -12,7 +12,7 @@ const PopularLocations = () => {
       <div className="card-container">
         <Card
           style={{
-            width: "20%",
+            width: "17%",
             backgroundColor: "rgb(37, 28, 51)",
             color: "white",
             marginRight: "1.5rem",
@@ -21,13 +21,16 @@ const PopularLocations = () => {
         >
           <Card.Img variant="top" src={sunset} className="card-img" />
           <Card.Body>
-            <Card.Title>London</Card.Title>
+            <Card.Title>Vatican City</Card.Title>
             <Card.Text>14°</Card.Text>
+            <Button variant="success" size="sm" className="card-button">
+              Add
+            </Button>
           </Card.Body>
         </Card>
         <Card
           style={{
-            width: "20%",
+            width: "17%",
             backgroundColor: "rgb(37, 28, 51)",
             color: "white",
             marginRight: "1.5rem",
@@ -38,6 +41,9 @@ const PopularLocations = () => {
           <Card.Body>
             <Card.Title>Glasgow</Card.Title>
             <Card.Text>16°</Card.Text>
+            <Button variant="success" size="sm" className="card-button">
+              Add
+            </Button>
           </Card.Body>
         </Card>
       </div>

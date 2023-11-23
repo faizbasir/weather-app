@@ -1,11 +1,8 @@
-.section-header {
-  margin-top: 2rem !important;
-}
 .card-img {
   padding: 2rem;
 }
 .card {
-  width: 25%;
+  width: 20%;
   background-color: rgb(37, 28, 51);
   color: white;
 }
@@ -21,6 +18,13 @@
   margin-top: 2rem;
   padding: 2rem;
   border-radius: 1.5rem;
+}
+.card-button {
+  font-size: xx-small;
+}
+.card-text {
+  width: fit-content;
+  margin-bottom: 0.5rem !important;
 }
 
 @media screen and (min-width: 1440px) {

@@ -2,8 +2,13 @@
   display: flex;
   justify-content: space-between;
 }
-.saved-locations,
-.current-location {
-  width: 50%;
+.saved-locations {
+  width: 60%;
   margin: 1rem 2rem;
+  margin-bottom: 0;
+}
+.current-location {
+  width: 40%;
+  margin: 1rem 2rem;
+  margin-bottom: 0;
 }
