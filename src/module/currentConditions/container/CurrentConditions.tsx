@@ -1,5 +1,6 @@
 import React from "react";
 import "./CurrentConditions.scss";
+import CurrentLocationForecast from "../../currentLocationForecast/CurrentLocationForecast";
 
 const sunny = require("../../../../public/assets/images/sunny.png");
 
@@ -16,7 +17,7 @@ const CurrentConditions = () => {
       </div>
       <div className="today-forecast">
         <p className="description">Today's forecast</p>
-        <div className="forecast-section">
+        <div className="today-forecast-section">
           <section>
             <p className="description">6.00pm</p>
             <img src={sunny} alt="" className="forecast-img" />
@@ -31,13 +32,7 @@ const CurrentConditions = () => {
           </section>
         </div>
       </div>
-      <div>
-        <p className="description">3-Day Forecast</p>
-        <section>
-          <p>Today</p>
-          <img src={sunny} alt="" className="forecast-img" />
-        </section>
-      </div>
+      <CurrentLocationForecast />
     </>
   );
 };

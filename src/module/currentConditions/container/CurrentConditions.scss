@@ -1,9 +1,14 @@
+.future-forecast-container {
+  overflow-y: auto;
+}
 .summary-container {
+  // background-color: rgb(37, 28, 51) !important;
   margin-top: 2.5rem;
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid grey;
   margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 .description {
   color: grey;
@@ -17,15 +22,11 @@
   margin-right: 2rem;
 }
 .forecast-img {
-  width: 5rem;
-  height: 5rem;
+  width: 3rem;
+  height: 3rem;
 }
-.forecast-section {
+.today-forecast-section {
   display: flex;
   justify-content: space-around;
   padding-bottom: 2rem;
-  border-bottom: 2px solid grey;
-}
-.today-forecast {
-  margin-bottom: 2rem;
 }

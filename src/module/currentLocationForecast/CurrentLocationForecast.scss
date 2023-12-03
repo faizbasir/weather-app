@@ -1,0 +1,35 @@
+.title {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 1rem;
+  color: rgb(22, 16, 50);
+}
+.content-text {
+  margin: 0;
+  width: 5rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  color: rgb(22, 16, 50);
+}
+.forecast-container {
+  overflow-y: auto;
+  max-height: 13rem;
+}
+.row-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid gray;
+  min-height: 4rem;
+}
+.forecast-img {
+  width: 3rem;
+  height: 3rem;
+}
+.weather-column {
+  display: flex;
+  justify-content: space-between;
+  width: 7rem;
+}

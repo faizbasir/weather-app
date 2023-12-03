@@ -27,8 +27,16 @@ const SavedLocations = () => {
           </Button>
         </div>
         <div className="card-content">
-          <img src={sunny} alt="" className="card-img" />
-          <h3>Kuala Lumpur</h3>
+          <img src={storm} alt="" className="card-img" />
+          <h3>Vatican City</h3>
+          <p>28°</p>
+          <Button className="button" variant="danger">
+            Delete
+          </Button>
+        </div>
+        <div className="card-content">
+          <img src={cloudy} alt="" className="card-img" />
+          <h3>London</h3>
           <p>28°</p>
           <Button className="button" variant="danger">
             Delete
@@ -36,23 +44,7 @@ const SavedLocations = () => {
         </div>
         <div className="card-content">
           <img src={sunny} alt="" className="card-img" />
-          <h3>Kuala Lumpur</h3>
-          <p>28°</p>
-          <Button className="button" variant="danger">
-            Delete
-          </Button>
-        </div>
-        <div className="card-content">
-          <img src={sunny} alt="" className="card-img" />
-          <h3>Kuala Lumpur</h3>
-          <p>28°</p>
-          <Button className="button" variant="danger">
-            Delete
-          </Button>
-        </div>
-        <div className="card-content">
-          <img src={sunny} alt="" className="card-img" />
-          <h3>Kuala Lumpur</h3>
+          <h3>Port Au Prince</h3>
           <p>28°</p>
           <Button className="button" variant="danger">
             Delete
